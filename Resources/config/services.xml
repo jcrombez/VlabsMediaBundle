@@ -87,7 +87,7 @@
         </service>
 
         <!-- twig -->
-        <service id="vlabs_media_twig_extension" class="%vlabs_media_twig_extension.class%" public="false">
+        <service id="vlabs_media_twig_extension" class="%vlabs_media_twig_extension.class%">
             <argument type="service" id="vlabs_media.handler.manager" />
             <argument type="service" id="vlabs_media.filter_chain" />
             <argument>%vlabs_media.templates%</argument>
